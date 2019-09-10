@@ -1,0 +1,17 @@
+{
+  "name": "barber-checker",
+  "version": "1.0.0",
+  "description": "Frisor intern availability check",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "10.16.2"
+  },
+  "author": "D.Kolezhniuk",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
