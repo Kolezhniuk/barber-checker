@@ -2,7 +2,7 @@ const BarberHelper = require('./barberHelper');
 const EventEmitter = require('events');
 class NotificationEmiter extends EventEmitter { }
 const notificationEmiter = new NotificationEmiter();
-const TOKEN = process.env.TOKEN || '897444320:AAHjjL0Fk9Fjo5ViFg5WeF6JGWSbrgob0A4';
+const TOKEN = process.env.TOKEN;
 
 const TelegramApiBot = require('node-telegram-bot-api');
 const bot = new TelegramApiBot(TOKEN, { polling: true });
